@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c"
+    },
+    "superBG.disable": false,
+    "superBG.images": [
+        "/home/ryan/Pictures/Wallpapers/Your paragraph text.png"
+    ],
+    "superBG.activeImage": 0,
+    "superBG.url": "",
+    "superBG.opacity": 28,
+    "cmake.configureOnOpen": false
+}
