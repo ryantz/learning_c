@@ -17,6 +17,7 @@ int main(){
     scanf("%d", &ans);
 
     if(ans == 1){
+        free(ptr);
         return 0;
     }
     
@@ -28,6 +29,7 @@ int main(){
         for(i=0; i<m; ++i){
          printf("The new addresses are: %p\n", ptr+i);   
         }
+        free(ptr);
         return 0;
     }
 }
