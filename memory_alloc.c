@@ -2,7 +2,7 @@
 // malloc() -> memory allocation. syntax ptr = (cast-type*)malloc(size) : allocates and no initialization
 // calloc() -> contigious allocation. syntax ptr = (cast-type*)calloc(n, size) : allocates and initializes all bits to 0
 // free() -> free memory allocated by any ^
-// realloc() -> if previous allocated memory is insufficient, use realloc(). syntax ptr = realloc(ptr, size)
+// realloc() -> if previous allocated memory is insufficient, use realloc(). syntax ptr = (cast-type*)realloc(ptr, size)
 #include <stdio.h>
 #include <stdlib.h>
 
